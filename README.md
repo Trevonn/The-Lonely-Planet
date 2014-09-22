@@ -1,3 +1,3 @@
-The-Lonely-Planet
+The Lonely Planet
 =================
 Version 1
