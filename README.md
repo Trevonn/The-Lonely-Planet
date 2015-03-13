@@ -1,3 +1,4 @@
 The Lonely Planet
 =================
-Version 1
+
+The Lonely Planet is my first attempt at simulationg a planet moving around a star using HTML and CSS.
