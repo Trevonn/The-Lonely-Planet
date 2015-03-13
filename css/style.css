@@ -18,30 +18,37 @@ html,body  {
 }
 
 .sun,
-.neptune {
+.neptune,
+.sunn {
 	border-radius: 100%;
-	animation: rotate 5s infinite linear;
-	-webkit-animation: rotate 5s infinite linear;
+	animation: rotate 15s infinite linear;
+	-webkit-animation: rotate 15s infinite linear;
 }
 
 .sun {
-	width: 150px;
-	height: 150px;
+	width: 50vh;
+	height: 50vh;
 	margin: 0 auto;
 	background-image: radial-gradient(#f40, #f60);
-	box-shadow: 0 0 50px 10px #f60;
+	box-shadow: 0 0 50px 15px #f60;
+}
+
+.sunn {
+	width: 10vh;
+	height: 10vh;
+	margin-left: 15vh;
 }
 
 .neptune {
-	width: 50px;
-	height: 50px;
-	margin-left: -150px;
+	width: 5vh;
+	height: 5vh;
+	margin-left: -15vh;
 	background-image: radial-gradient(#fff, #09f 40%);
 }
 
 .name {
 	position: relative;
-	top: 20px;
+	top: 2vh;
 	color: #fff;
 	font-weight: bold;
 	letter-spacing: 1px;
